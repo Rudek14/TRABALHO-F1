@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem;
+    background: url('f1-car.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+  
+  }
+  
+  header {
+    background: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    text-align: center;
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  .logo.right {
+    margin-left: auto;
+  }
+  
+  .logo.left {
+    margin-right: auto;
+  }
+  
+  .logo-mini {
+    height: 30px;
+    color: #ffffff;
+  }
+  
+  section {
+    margin: 2rem 0;
+    color: #ffffff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  table, th, td {
+    border: 1px solid #a0a0a0;
+    color: #ffffff;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    margin-top: 1.5rem;
+  }
+  
